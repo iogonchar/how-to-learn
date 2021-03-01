@@ -63,6 +63,7 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: .3s;
 }
 
 .header__main-illustration {
@@ -222,6 +223,7 @@
   top: 50%;
   text-decoration: none;
   color: #2f80ed;
+  transition: .3s;
 }
 /* end feynman section styles */
 
@@ -312,6 +314,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #fff;
+  transition: .3s;
 }
 
 .footer__social-icon {
@@ -320,3 +323,12 @@
   margin-right: 10px;
 }
 /* end footer styles */
+
+/* element reactions */
+.header__link:hover, .feynman__link:hover {
+  color: #581243;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+}
