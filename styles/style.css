@@ -162,6 +162,8 @@
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell {
@@ -230,13 +232,14 @@
   padding: 90px 0;
   overflow: hidden;
   position: relative;
-  z-index: -2;
 }
 
 .section-title_theme_dark,
 .section-subtitle_theme_dark,
 .table__cell_theme_dark {
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -252,7 +255,6 @@
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: -1;
   width: 877px;
   height: 877px;
 }
