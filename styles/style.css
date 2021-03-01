@@ -169,14 +169,7 @@
 
 .table__cell {
   margin-top: 60px;
-}
-
-.table__cell_size_l {
   width: 250px;
-}
-
-.table__cell_size_m {
-  width: 200px;
 }
 
 .table__heading {
@@ -252,6 +245,7 @@
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   margin-top: 80px;
+  width: 200px;
 }
 
 .kaufman__triangle {
