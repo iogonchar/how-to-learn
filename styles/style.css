@@ -17,15 +17,7 @@
 .centered-block {
   margin: 0 auto;
 }
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  position: relative;
-  background-color: #f2f2f2;
-}
+/* end default styles */
 
 /* logo styles */
 .logo {
@@ -36,6 +28,24 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+/* end logo styles */
+
+/* header styles */
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  position: relative;
+  background-color: #f2f2f2;
 }
 
 .header__title {
@@ -287,11 +297,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
 }
 
 .footer__author {
