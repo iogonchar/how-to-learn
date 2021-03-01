@@ -149,9 +149,6 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
-}
-
-.digits__title {
   margin: 0 auto 20px;
 }
 
@@ -161,9 +158,6 @@
   font-weight: normal;
   width: 60%;
   text-align: center;
-}
-
-.digits__subtitle {
   margin: 0 auto;
 }
 
