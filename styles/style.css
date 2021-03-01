@@ -54,8 +54,8 @@
   font-size: 102px;
   font-weight: bold;
   align-self: center;
-  margin-left: 64px;
-  z-index: 1;
+  margin: 0 0 0 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -66,7 +66,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__link {
@@ -80,6 +80,7 @@
   right: 0;
   width: 765px;
   height: 608px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -90,7 +91,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  z-index: -1;
 }
 
 /* description section styles */
