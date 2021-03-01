@@ -92,6 +92,7 @@
   width: 568px;
   background-color: #2f80ed;
 }
+/* end header styles */
 
 /* description section styles */
 .description {
@@ -135,11 +136,11 @@
 .two-columns__span-accent {
   font-weight: bold;
 }
+/* end description section styles */
 
 /* digits section styles */
 .digits {
   padding: 100px 0;
-  /* border: 1px solid red; */
 }
 
 .section__title {
@@ -173,7 +174,6 @@
 }
 
 .table__cell {
-  /* border: 1px solid yellow; */
   margin-top: 60px;
 }
 
@@ -202,6 +202,7 @@
 .table__text-source {
   margin-top: 20px;
 }
+/* end digits section styles */
 
 /* feynman section styles */
 .feynman {
