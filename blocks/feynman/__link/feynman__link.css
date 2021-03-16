@@ -7,9 +7,4 @@
   top: 50%;
   text-decoration: none;
   color: #2f80ed;
-  transition: .3s;
-}
-
-.feynman__link:hover {
-  color: #581243;
 }
